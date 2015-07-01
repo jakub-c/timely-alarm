@@ -14,8 +14,8 @@ function onPermissionDeniedCallback() {
   $('.notification-disabled').show();
 }
 
-var reminder = new Notify('Yo dawg!', {
-  body: 'Stand up!',
+var reminder = new Notify('Don\'t forget to:', {
+  body: 'stand up',
   timeout: 3,
   icon: 'data/notification-icon.png'
 });
