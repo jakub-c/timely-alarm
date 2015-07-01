@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jakub Cioslowski -- programmer -- @jkb_c
+
+# THANKS
+
+    Big up to open source community
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    jQuery, Normalize.css, Bootstrap
+    Borwserify 
+    and all other magic tools
