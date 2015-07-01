@@ -1,0 +1,43 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #77A2C8;
+  color: #fff;
+  font-family: 'Lato', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 100;
+}
+
+p {
+  margin: 0;
+}
+
+.timer {
+  @include font-size(160);
+  line-height: 157px;
+  margin-top: -90px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.warning-msg {
+  background: #EBCA89;
+  display: none;
+  @include font-size(40);
+  font-weight: 400;
+  line-height: 1.1;
+  left: 0;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  
+  p {
+    margin: 0 auto;
+    max-width: 70%;
+  }
+}
