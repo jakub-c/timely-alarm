@@ -16,7 +16,7 @@ function onPermissionDeniedCallback() {
 
 var reminder = new Notify('Don\'t forget to:', {
   body: 'stand up',
-  timeout: 3,
+  timeout: 10,
   icon: 'data/notification-icon.png'
 });
 
